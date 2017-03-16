@@ -43,3 +43,27 @@ brownOnly.splice(1,5,"brown","brown","brown");
 
 orderedValuesNewLength = orderedValues.unshift(1,2,3);
 
+var randomThingsArray = genericNumberArray.concat(colors);
+
+
+var order1 = [{takeOut: 'Pie'}];
+var order2 = [{takeOut: 'Hot Dog'}];
+var updatedOrders = orderQueue.concat(order1,order2);
+
+var sentence = scrambledWords.join(" ");
+
+var myFruits = fruitCollection.join(" + ");
+
+var favoriteFriends = friends.slice(1,3);
+
+var owesMoney = friends.slice(3);
+
+var monthNameString = monthNames.toString(" ");
+
+var favoriteColor = colors.indexOf("Red");
+
+var favoriteEvenNumber = mixedNums.indexOf(76);
+
+var lastNine = bulkNumbers.lastIndexOf(9);
+
+var lastFive = bulkNumbers.lastIndexOf(5);
